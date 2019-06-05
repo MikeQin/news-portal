@@ -1,0 +1,11 @@
+{
+  "name": "alternative-news",
+  "version": "1.0.0",
+  "description": "Online demo can be found on https://marcushellberg.github.io/alternative-news",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
