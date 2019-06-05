@@ -1,14 +1,17 @@
-# Progressive Web App Demo - New Portal
+# Progressive Web App (PWA)
+
+* manifest.json
+* service worker
+
+## News Portal
+It's alive demo of PWA. `http://localhost:5000`
 
 ## Running locally
-
-Serve folder with your server of choice. For instance `c`.
-
 ```
 # Install serve
-git remote add origin https://github.com/MikeQin/news-portal.git
+npm install -g serve
 
-# Run PWA
+# Run PWA, inside project folder
 server
 ```
 
