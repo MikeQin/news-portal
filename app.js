@@ -5,7 +5,7 @@ const newsArticles = document.querySelector('main');
 
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () =>
-    navigator.serviceWorker.register('sw.js')
+    navigator.serviceWorker.register('sw-wb.js')
       .then(registration => console.log('Service Worker registered'))
       .catch(err => 'SW registration failed'));
 }
