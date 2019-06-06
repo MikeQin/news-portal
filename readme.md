@@ -1,5 +1,9 @@
 # Progressive Web App (PWA)
 
+## Tutorial [Simple PWA example](https://youtu.be/gcx-3qi7t7c)
+
+[Source Code](https://github.com/marcushellberg/alternative-news)
+
 * manifest.json
 * service worker
 
@@ -15,3 +19,10 @@ npm install -g serve
 server
 ```
 
+## Use Google Workbox
+
+```
+npm init
+
+npm i workbox-sw
+```

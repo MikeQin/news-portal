@@ -1,0 +1,22 @@
+{
+  "name": "news-portal",
+  "version": "1.0.0",
+  "description": "[Source Code](https://github.com/marcushellberg/alternative-news)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikeQin/news-portal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MikeQin/news-portal/issues"
+  },
+  "homepage": "https://github.com/MikeQin/news-portal#readme",
+  "dependencies": {
+    "workbox-sw": "^4.3.1"
+  }
+}
