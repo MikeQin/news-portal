@@ -27,6 +27,19 @@ self.addEventListener('fetch', event => {
   }
 });
 
+/*
+const CACHE_NAME = 'new-v1';
+self.addEventListener("fetch", e => {
+  e.respondWith(
+    fetch(e.request).catch(() => {
+      return caches.open(CACHE_NAME).then(cache => {
+        return cache.match("offline.html");
+      })
+    })
+  )
+})
+*/
+
 async function cacheFirst(request) {
   const cachedResponse = await caches.match(request);
   return cachedResponse || fetch(request);
